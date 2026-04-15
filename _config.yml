@@ -1,3 +1,29 @@
-remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: "jekyll/minima"
+
 plugins:
 - jekyll-remote-theme
+
+minima:
+  social_links:
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/company/nutpec/"
+    - title: Instagram
+      icon: instagram
+      url: "https://www.instagram.com/themeparksnu/"
+    - title: Engage
+      icon: neu
+      url: "https://coe.northeastern.edu/orgs/theme-park-engineering-club/"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/NEU-TPEC/website"
+  nav_pages:
+    - index.md
+    - about.md
+    - blog.md
+    - contact.md
+
+
+site:
+  title: Northeastern University Theme Park Engineering

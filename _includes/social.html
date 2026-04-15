@@ -1,0 +1,13 @@
+<ul class="social-media-list">
+{%- for entry in site.minima.social_links -%}
+  <li>
+    <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
+      {% if entry.icon == "neu" %}
+        <img src="{{ '/assets/images/neu-logo.png' | relative_url }}" alt="{{ entry.title }}" width="38" height="38" style="vertical-align: middle; padding: 0px 0px 10px 0px;">
+      {% else %}
+        <span class="fa-brands fa-{{ entry.icon }} fa-lg" style="color: white;"></span>
+      {% endif %}
+    </a>
+  </li>
+{%- endfor -%}
+</ul>
