@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Northeastern Theme Park Engineering Club
 
 Northeastern’s Theme Park Engineering Club is a dynamic community for those passionate about the intersection of art, science, and engineering in the world of theme park design.
